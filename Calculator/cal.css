@@ -14,12 +14,11 @@ body {
 
 .container{
     height: 100%;
-    /* display: flex; */
+    
 }
 
 .result {
     display: flex;
-    /* align-items: flex-end; */
     justify-content: flex-end;
     color: white;
     height: 42%;
@@ -41,7 +40,6 @@ body {
     height: 60%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    /* justify-content: baseline; */
     justify-content: last baseline;
 
 }
