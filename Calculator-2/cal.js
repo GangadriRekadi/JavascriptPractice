@@ -193,12 +193,17 @@ percent.addEventListener("click",
         }
         else if (secondValue && sign) {
 
+            
+                secondValue = Number(secondValue);
+                secondValue = secondValue.toString();
+           
+
             let len = secondValue.length;
 
             secondValue = secondValue / 100;
             secondValue = secondValue.toFixed(2);
 
-            dispay = dispay.substring(0,dispay.length-len)
+            dispay = dispay.substring(0,dispay.length-len);
             dispay += secondValue;
             result.innerHTML = dispay;
             operation.innerHTML = "    % Operation Occured";
